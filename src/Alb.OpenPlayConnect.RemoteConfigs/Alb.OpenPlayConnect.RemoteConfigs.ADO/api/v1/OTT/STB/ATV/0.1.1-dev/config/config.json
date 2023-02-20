@@ -1,0 +1,183 @@
+﻿{
+  "progressbar": false,
+  "refreshConfigInMins": 360,
+  "home_channels": {
+    "continue_watching": false
+  },
+  "bookmarks": {
+    "prePaddingInMins": 2,
+    "posPaddingInMins": 15,
+    "endingOffsetInSecs": 15
+  },
+  "endpoints": {
+    "cdnImagesUmt": "https://meoapp.tv.alticelabs.com/2022/QA/open-play-connect-api/api/v1/",
+    "proxycache": "https://meoapp.tv.alticelabs.com/2022/QA/open-play-connect-api/api/v1/",
+    "ott": "https://meoapp.tv.alticelabs.com/2022/QA/open-play-connect-api/api/v1/",
+    "ottSearch": "https://meoapp.tv.alticelabs.com/2022/QA/open-play-connect-api/api/v1/search/v1/meocatalog/",
+    "ottUser": "https://meoapp.tv.alticelabs.com/2022/QA/open-play-connect-api/api/v1/user/v9/",
+    "ottCatalog": "https://meoapp.tv.alticelabs.com/2022/QA/open-play-connect-api/api/v1/catalog/v9/",
+    "ottProgram": "https://meoapp.tv.alticelabs.com/2022/QA/open-play-connect-api/api/v1/program/v9/",
+    "ottEvent": "https://meoapp.tv.alticelabs.com/2022/QA/open-play-connect-api/api/v1/event/v9/",
+    "ottMedia": "https://meoapp.tv.alticelabs.com/2022/QA/open-play-connect-api/api/v1/media/v9/",
+    "sdb": "https://meoapp.tv.alticelabs.com/2022/QA/open-play-connect-api/api/v1/",
+    "madServ": "https://meoapp.tv.alticelabs.com/2022/QA/open-play-connect-api/api/v1/IPTV/MadServ/",
+    "premiumChannelsApi": "https://meoapp.tv.alticelabs.com/2022/QA/open-play-connect-api/api/v1/"
+  },
+"bannersAdspaces": {
+    "homepage": "androidtv_hp",
+    "recordings": "androidtv_ga",
+    "premiumChannels": "androidtv_gc"
+  },
+  "featuredThematicsCategories": {
+    "movies": "movies",
+    "tvShows": "tvShows",
+    "documentaries": "documentaries"
+  },
+  "forYou": {
+    "exitAppWithDoubleBack": false
+  },
+  "onBoarding": {
+    "onBoardingVideo": {
+      "enabled": false
+    }
+  },
+  "conviva": {
+    "enableConviva": true,
+    "convivaSessionsSamplingDivisor": 1
+  },
+  "standBySettings": {
+    "standByTimeoutMin": 240,
+    "screenSaverTimeoutSec": 10
+  },
+  "streamControl": {
+    "enableStreamControl": true,
+    "ignoreContinueResponse": true
+  },
+  "playback": {
+    "liveIndividualization": false,
+    "showThumbnailsOnLimitedDevices": true,
+    "forceReduxDecoderForThumbnails": true,
+    "useSecureDecoderForClearContent": false,
+    "disableVideoRendererWhenHidden": false,
+    "exoPlayerParameters": {
+      "adaptiveTrackSelectionParameters": {
+        "bandwidthFraction": 0.75
+      },
+      "livePlaybackParameters": {
+        "targetOffsetMs": 17000,
+        "fallbackTargetOffsetMs": 17000
+      }
+    },
+    "tunnelingEnabledDefault": false,
+    "tunnelingPerDeviceModel": {
+      "DIW3930-MEO": false
+    }
+  },
+  "assistant": {
+    "cloud2Cloud": {
+      "enabled": true
+    }
+  },
+  "privateMode": {
+    "enabled": false
+  },
+  "sports": {
+    "enabled": false,
+    "timeline": {
+      "defaultGasEventTimeSubtractOffsetSecs": 7,
+      "defaultLiveEventTimeSubtractOffsetSecs": 7
+    }
+  },
+  "serviceParameters": {
+    "availableOnChannelsTV": "ATV",
+    "availableOnChannelsVod": "ATV",
+    "availableOnChannelsSVod": "ATV"
+  },
+  "byPassSettings": {
+    "checkUrl": "http://cdn-resources.online.meo.pt/EM/ATV/app_hcheck.json",
+    "liveChannelListUrl": "http://cdn-resources.online.meo.pt/EM/ATV/LIVE_bypassmappings.json",
+    "recordingsChannelListUrl": "http://cdn-resources.online.meo.pt/EM/ATV/GA_bypassmappings.json"
+  },
+  "sVods": {
+    "individualizationPlayWarnings": false
+  },
+  "zapping": {
+	"enableEditThematics": false,
+	"enableEditChannels": false,
+	"accidentalZapping": {
+		"savedStateValiditySecs": 30
+	},
+	"tuneByDigits": {
+		"enabled": true,
+		"maxDigitsAccepted": 3,
+		"tuneDelayMilliseconds": 2000
+	}
+  },
+  "settings": {
+    "audio": {
+      "languages": [
+        {
+          "audioDescriptionLanguageCode": "pt",
+          "hasAudioDescription": true,
+          "languageCode": "th"
+        },
+        {
+          "languageCode": "en"
+        },
+        {
+          "languageCode": "es"
+        },
+        {
+          "languageCode": "fr"
+        },
+        {
+          "languageCode": "de"
+        },
+        {
+          "languageCode": "ta",
+          "labelKey": "Audio_Alternativo"
+        }
+      ],
+      "showDisableOption": false,
+      "visible": true
+    },
+    "subtitles": {
+      "languages": [
+        {
+          "languageCode": "pt"
+        },
+        {
+          "languageCode": "en"
+        },
+        {
+          "languageCode": "fr"
+        },
+        {
+          "languageCode": "de"
+        }
+      ],
+      "showDisableOption": true,
+      "visible": false
+    }
+  },
+  "recordings": {
+    "nowEndDateSubtractInMins": 20,
+    "keepIt": {
+      "enabled": true,
+      "movieThematics": [
+        "MSEPGC_MV"
+      ],
+      "seasonThematics": [
+        "MSEPGC_Series",
+        "MSEPGC_Ed",
+        "MSEPGC_LS",
+        "MSEPGC_Special"
+      ],
+      "seasonSpecialThematics": [
+        "MSEPGC_Special_Soap",
+        "MSEPGC_Series"
+      ],
+      "warningPercentage": 0.7
+    }
+  }
+}

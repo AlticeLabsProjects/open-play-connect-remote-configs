@@ -1,0 +1,16 @@
+﻿{
+  "baseUrl": {
+    "*": "https://meoapp.tv.alticelabs.com/2023/Dev/open-play-connect-remote-configs/api/v1/OTT/STB/ATV/0.1.0-dev/",
+    "0.1.1-dev": "https://meoapp.tv.alticelabs.com/2023/Dev/open-play-connect-remote-configs/api/v1/OTT/STB/ATV/0.1.1-dev/",
+    "0.1.2-dev": "https://meoapp.tv.alticelabs.com/2023/Dev/open-play-connect-remote-configs/api/v1/OTT/STB/ATV/0.1.1-dev/",
+    "0.4.0-dev": "https://meoapp.tv.alticelabs.com/2023/Dev/open-play-connect-remote-configs/api/v1/OTT/STB/ATV/0.1.0-dev/",
+    "0.6.0-dev": "https://meoapp.tv.alticelabs.com/2023/Dev/open-play-connect-remote-configs/api/v1/OTT/STB/ATV/0.1.0-dev/",
+    "0.6.0": "https://meoapp.tv.alticelabs.com/2023/Dev/open-play-connect-remote-configs/api/v1/OTT/STB/ATV/0.1.1-dev/",
+    "0.6.1": "https://meoapp.tv.alticelabs.com/2023/Dev/open-play-connect-remote-configs/api/v1/OTT/STB/ATV/0.1.1-dev/",
+    "0.6.1-dev": "https://meoapp.tv.alticelabs.com/2023/Dev/open-play-connect-remote-configs/api/v1/OTT/STB/ATV/0.1.0-dev/",
+    "0.9.0-dev": "https://meoapp.tv.alticelabs.com/2023/Dev/open-play-connect-remote-configs/api/v1/OTT/STB/ATV/0.1.0-dev/",
+    "0.9.0": "https://meoapp.tv.alticelabs.com/2023/Dev/open-play-connect-remote-configs/api/v1/OTT/STB/ATV/0.1.1-dev/",
+    "0.9.1": "https://meoapp.tv.alticelabs.com/2023/Dev/open-play-connect-remote-configs/api/v1/OTT/STB/ATV/0.1.1-dev/"
+  },
+  "remoteStringsUrl": "https://meoapp.tv.alticelabs.com/2023/Dev/open-play-connect-remote-configs/api/v1/OTT/STB/ATV/config/localization.json"
+}

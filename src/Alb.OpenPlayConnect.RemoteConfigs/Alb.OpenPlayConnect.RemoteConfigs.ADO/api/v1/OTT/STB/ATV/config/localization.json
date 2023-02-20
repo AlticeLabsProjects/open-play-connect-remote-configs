@@ -1,0 +1,20 @@
+﻿{
+  "pt": {
+    "Recordings_RecentChannels": "Canais Recentes",
+    "Recordings_AllPrograms": "Todos os Programas",
+    "Recordings_FeaturedMovies": "Filmes em Destaque",
+    "Recordings_FeaturedTVShows": "Séries em Destaque",
+    "DetailedPage_CustomizationBack": "Voltar",
+    "All Programs": "Todos os Programas",
+    "devices_supported_text": "Para a melhor experiência de televisão MEO, por favor, adquira a MEOBox 4K disponível em meo.pt ou ligando para o 16 200.\n\nAdicionalmente poderá utilizar os seguintes equipamentos com Android TV 9 ou superior.\n\n      Boxes:\n        • NVIDIA Shield TV e TV Pro \n        • Xiaomi Mi Box S \n        • Xiaomi Mi Box 3 \n        • Engel 4K \n        • Mecool KM9 Pro \n        • Chromecast com Google TV\n        • Xiaomi TV Stick 4k \n\n      Televisões:\n        • Sony Bravia 4K/8K (2018, 2019, 2020, 2021) * \n        • Xiaomi Mi TV P1 (43’’, 50’’ e 55’’)\n        \n\n* Excepto o modelo Sony Bravia 4K GB ATV3."
+  },
+  "en": {
+    "Recordings_RecentChannels": "Recent Channels",
+    "Recordings_AllPrograms": "All TV Shows",
+    "Recordings_FeaturedMovies": "Featured Movies",
+    "Recordings_FeaturedTVShows": "Featured TV Shows",
+    "DetailedPage_CustomizationBack": "Back",
+    "All Programs": "All TV Shows",
+    "devices_supported_text": "For the best MEO television experience, use the following devices with Android TV 9 or higher.\n\n      Set-Top Boxes:\n        • NVIDIA Shield TV e TV Pro \n        • Xiaomi Mi Box S \n        • Xiaomi Mi Box 3 \n        • Engel 4K \n        • Mecool KM9 Pro \n        • Chromecast with Google TV \n        • Xiaomi TV Stick 4k\n\n      TVs:\n        • Sony Bravia 4K/8K (2018, 2019, 2020, 2021) *\n        • Xiaomi Mi TV P1 (43’’, 50’’ e 55’’)\n\n\n* Except model Sony Bravia 4K GB ATV3."
+  }
+}

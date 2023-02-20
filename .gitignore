@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/src/Alb.OpenPlayConnect.RemoteConfigs/.vs
+/src/Alb.OpenPlayConnect.RemoteConfigs/Alb.OpenPlayConnect.RemoteConfigs.ADO/bin
+/src/Alb.OpenPlayConnect.RemoteConfigs/Alb.OpenPlayConnect.RemoteConfigs.ADO/obj
+/src/Alb.OpenPlayConnect.RemoteConfigs/Alb.OpenPlayConnect.RemoteConfigs.ADO/Alb.OpenPlayConnect.RemoteConfigs.ADO.csproj.user
