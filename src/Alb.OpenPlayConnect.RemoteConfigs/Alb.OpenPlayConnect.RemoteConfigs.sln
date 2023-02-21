@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alb.OpenPlayConnect.RemoteConfigs.ADO", "Alb.OpenPlayConnect.RemoteConfigs.ADO\Alb.OpenPlayConnect.RemoteConfigs.ADO.csproj", "{22C88280-4F44-4923-9173-67DC4F68A074}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alb.OpenPlayConnect.RemoteConfigs.ADO", "Alb.OpenPlayConnect.RemoteConfigs.ADO\Alb.OpenPlayConnect.RemoteConfigs.ADO.csproj", "{F9F5A981-54EB-4CA8-AA1A-23A0FB75033D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{22C88280-4F44-4923-9173-67DC4F68A074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{22C88280-4F44-4923-9173-67DC4F68A074}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{22C88280-4F44-4923-9173-67DC4F68A074}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{22C88280-4F44-4923-9173-67DC4F68A074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F5A981-54EB-4CA8-AA1A-23A0FB75033D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F5A981-54EB-4CA8-AA1A-23A0FB75033D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F5A981-54EB-4CA8-AA1A-23A0FB75033D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F5A981-54EB-4CA8-AA1A-23A0FB75033D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
