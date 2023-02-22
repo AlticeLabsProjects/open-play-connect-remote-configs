@@ -6,13 +6,13 @@ using System.Text;
 namespace Alb.OpenPlayConnect.RemoteConfigs.ADO.Controllers
 {
     [ApiController]
-    [Route("api/v1/OTT/STB/ATV")]
-    public class ATVController : ControllerBase
+    [Route("api/v1/OTT/STB")]
+    public class STBController : ControllerBase
     {
 
-        private readonly ILogger<ATVController> _logger;
+        private readonly ILogger<STBController> _logger;
 
-        public ATVController(ILogger<ATVController> logger)
+        public STBController(ILogger<STBController> logger)
         {
             _logger = logger;
         }
@@ -20,11 +20,12 @@ namespace Alb.OpenPlayConnect.RemoteConfigs.ADO.Controllers
         /// <summary>
         /// 
         /// </summary>
+        /// <param name="userAgent"></param>
         /// <param name="json_file"></param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
-        [Route("config/{json_file}")]
-        public async Task<IActionResult> GetConfigs(string? json_file, CancellationToken cancellationToken = default)
+        [Route("{userAgent}/config/{json_file}")]
+        public async Task<IActionResult> GetConfigs(string? userAgent, string? json_file, CancellationToken cancellationToken = default)
         {
             try
             {
@@ -33,7 +34,7 @@ namespace Alb.OpenPlayConnect.RemoteConfigs.ADO.Controllers
                 {
                     return StatusCode((int)HttpStatusCode.BadGateway, "Without config file defined.");
                 }
-                var a = Util.ReadConfigFileAsync(json_file);
+                var a = Util.ReadConfigFileAsync(userAgent, json_file);
                 if (a == null || (a != null && a.Result == null))
                     return StatusCode((int)HttpStatusCode.NoContent, "Without content finded.");
 
@@ -54,12 +55,13 @@ namespace Alb.OpenPlayConnect.RemoteConfigs.ADO.Controllers
         /// <summary>
         /// 
         /// </summary>
+        /// <param name="userAgent"></param>
         /// <param name="folder"></param>
         /// <param name="json_file"></param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
-        [Route("{folder}/config/{json_file}")]
-        public IActionResult GetConfigs(string? folder, string? json_file, CancellationToken cancellationToken = default)
+        [Route("{userAgent}/{folder}/config/{json_file}")]
+        public IActionResult GetConfigs(string? userAgent, string? folder, string? json_file, CancellationToken cancellationToken = default)
         {
             try
             {
@@ -73,7 +75,7 @@ namespace Alb.OpenPlayConnect.RemoteConfigs.ADO.Controllers
                     return StatusCode((int)HttpStatusCode.BadGateway, "Without config version folder defined.");
                 }
 
-                var a = Util.ReadConfigVersionFileAsync(folder, json_file);
+                var a = Util.ReadConfigVersionFileAsync(userAgent, folder, json_file);
                 if (a == null || (a != null && a.Result == null))
                     return StatusCode((int)HttpStatusCode.NoContent, "Without content finded.");
                 return Ok(a.Result);
